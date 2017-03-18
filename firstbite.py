@@ -18,7 +18,8 @@ n=['testing1','testing2']
 new_l = [ (a,b,c) for a in l for b in m for c in n if a>b and c!='testing2']
 # [(2, 1, 'testing2'), (3, 1, 'testing2'), (4, 1, 'testing2'), (4, 3, 'testing2'), (5, 1, 'testing2'), (5, 3, 'testing2')]
 
-
+# edit a value in a cell in dataframe
+df.set_value('col1 value','col2 name', 10)
 # to do : lambda, pandas dataframe
 # lambda ..
 # lambda input : logic
