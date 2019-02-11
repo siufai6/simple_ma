@@ -11,7 +11,7 @@ data = dr(code,start='2000-01-01', interval='d').read()
 short_ma_period = 50
 long_ma_period = 200
 
-
+#
 ms = data.Close.rolling(short_ma_period).mean()
 ml = data.Close.rolling(long_ma_period).mean()
 
